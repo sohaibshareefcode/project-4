@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-image{
+    background-image: url('./banner.jpg');
+    background-size: 100% 100%;
+    height: 700px;
+  
+  
+}
+.header-child{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    align-items: center;
+    font-size: 20px;
+}
+ul,li{
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+padding: 0px 25px;
+justify-content:end;
+}
+.header-center{
+  margin-left: 10%;
+}
+.Order-online{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(218, 178, 32);
+    color: white;
+}
+.Order-online:hover{
+    background-color: white;
+    color: rgb(218, 178, 32);
+}
+.con{
+    padding: 5px;
+}
+.text-child{
+    color: white;
+font-size: 20px;
+
+   width: 50%;
+    margin: auto;
+    position: absolute;
+}
+.text-section1{
+    top: 20%;
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.fast{
+    line-height: 90px;
+    color: white;
+    font-size:31px;
+}
+.dolor{
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+}
+.now{
+    padding: 10px 35px;
+    border: none;
+    border-radius: 60px;
+    background-color: rgb(218, 178, 32);
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.dot{
+    display: flex;
+    
+}
+.down{
+    display: flex;
+    border-radius: 30px;
+}
+.crule{
+    margin:30% 5px;
+    display: block;
+    border-radius: 20px;
+    display: block; 
+
+}
+.child-header{
+    padding-bottom:60px ;
+    padding-top:60px ;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+    margin: auto;
+}
+.child{
+    
+    display: flex;
+   
+    width: 48%;
+    background-color:#222831;
+}
+.picture{
+margin: 13px;
+    width: 190px;
+    border-radius: 100px;
+    height: 190px;
+    border: 5px solid rgb(218, 172, 32);
+}
+.text{
+    margin-top: 20px;
+    color: white
+}
+.order{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 60px;
+    background-color: rgb(218, 178, 32);
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.body-section{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.uper-head{
+    text-align: center;    
+}
+.home{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+   padding:40px 0;
+}
+.second{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 8px 20px;
+    text-transform: capitalize;
+
+}
+.second:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+.uper-section{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.card{
+    
+    height: 520px;
+    position: relative;
+    background-color: #222831;
+    border-radius: 25px 25px 20px 20px;
+line-height: 30px;
+}
+.image-all{
+   padding:  30px 70px;
+    text-align: center;
+    background-color:#F1F2F3 ;
+    border-radius: 20px 20px 0px 25%;
+
+}
+.all-image{
+    width: 190px;
+    height: 190px;
+}
+.text-section{
+    padding: 0px 20px;
+    top:  58%;
+    font-size: 17px;
+    line-height: 20px;
+    position: absolute;
+color: white;
+width: 100%;
+   
+}
+.pizza{
+    margin-bottom: 20px;
+}
+.same{
+    align-items: center;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    border-radius: 30px;
+    padding: 7px;
+    background-color:rgb(218, 172, 32);
+}
+.uper-section{
+    padding-top: 30px;
+}
+.view{
+    margin-top: 60px;
+    
+    margin-bottom: 40px;
+   
+    padding: 10px 35px;
+    border: none;
+    border-radius: 60px;
+    background-color: rgb(218, 178, 32);
+    color: white;
+ 
+    font-size: 20px;
+}
+.view1{
+    width: 15%;
+    margin: auto;
+}
+.center-body{
+   background-color: #222831;
+   
+}
+.child-body{
+    background-image: url('./about-img.png');
+    background-size: 100% 100%;
+    width: 48%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 500px;
+}
+.center-body1{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.right-child{
+    margin: 15% 0px;
+    color: white;
+    width: 500px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.from-section{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.from-section-left{
+    width: 48%;
+}
+.type{
+    border: 1px solid gainsboro;
+    width: 500px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    padding: 15px 20px;
+
+}
+.from-section-right{
+    width: 48%;
+    margin-top: -100px;
+}
+.footer{
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 40px;
+}
+.footer-center{
+    text-align: center;
+    color: white;
+    width: 350px;
+  
+}
+.footer-left{
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+.footer-right{
+    color: whitesmoke;
+    text-align: center;
+    line-height: 40px;
+}
+.thrid{
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 30px;
+    color: black;
+    padding: 10px;
+}
+.main-footer{
+    padding: 30px 0;
+    background-color: #222831;
+}
+.designer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    color: white;
+}
